@@ -1,50 +1,79 @@
-# 🧩 SIAG COOP – Herramientas Cooperativas
+# 🧩 SIAG COOP — Cooperative Tools
+Herramientas libres, scripts y automatizaciones diseñadas para cooperativas, comunidades y organizaciones sociales.
 
-**Repositorio principal de herramientas, scripts y automatizaciones para cooperativas.**  
-Desarrollado por **SIAG COOP** (Cooperativa Informática de Software Libre y Ético).
+Este repositorio reúne utilidades prácticas que pueden ser usadas por:
+- cooperativas de trabajo
+- asociaciones civiles
+- grupos comunitarios
+- organizaciones autogestivas
+- colectivos barriales
+- proyectos sociales
 
----
-
-## 🌱 Propósito
-
-Este proyecto ofrece soluciones digitales adaptadas a las necesidades de organizaciones autogestivas, cooperativas, y colectivos de trabajo.  
-Buscamos fortalecer la independencia tecnológica y fomentar la intercooperación mediante software abierto, auditable y útil.
-
----
-
-## ⚙️ Contenido
-
-- Scripts de automatización para gestión de tareas, datos y comunicación interna.  
-- Integraciones simples con herramientas libres (Nextcloud, Etherpad, Mattermost, etc.).  
-- Prototipos de bots cooperativos basados en NativCore y SIAG Framework.  
-- Documentación paso a paso para su implementación en servidores propios.
+El objetivo es ofrecer **soluciones simples, replicables y de impacto real**.
 
 ---
 
-## 🧭 Instalación básica
+## 🎯 Propósito
+Cooperative Tools existe para:
+- facilitar tareas organizativas
+- automatizar procesos administrativos
+- mejorar comunicación interna
+- apoyar asambleas y grupos de trabajo
+- generar autonomía operativa mediante tecnología ética y accesible
 
-```bash
-git clone https://github.com/SIAG-COOP/cooperative-tools.git
-cd cooperative-tools
-Cada módulo contiene su propio archivo README con las instrucciones detalladas.
+---
 
-🤝 Participación
-Aportar ideas, mejoras o nuevas herramientas es bienvenido.
-Podés colaborar mediante:
+## 📦 Estructura del Repositorio
+```
+cooperative-tools/
+├── README.md
+├── docs/
+│ └── overview.md → Documentación general del proyecto
+└── src/
+└── sample_tool.py → Ejemplo base de herramienta cooperativa
+```
 
-Pull requests en GitHub
+---
 
-Mensaje directo en Telegram: @SIAG_SOFTWARE
+## 🚀 Primeras Herramientas (Fase de Inicio)
+Este repositorio comenzará con:
 
-Correo: siag.software@protonmail.com
+- 📝 Generadores de documentos cooperativos  
+- 📊 Herramientas administrativas  
+- 🔄 Automatizadores simples  
+- 🔧 Scripts para coordinación y participación  
+- 🗂️ Utilidades de gestión interna  
+- 🕊️ Herramientas orientadas a procesos democráticos y abiertos  
 
-🔗 Ecosistema SIAG COOP
-🔸 SIAG HUB – Documentación y recursos centrales
+Cada módulo será incorporado progresivamente.
 
-🔸 Open Civic Apps – Aplicaciones libres para uso comunitario
+---
 
-📜 Licencia
-AGPL v3 – Uso libre y cooperativo garantizado.
-Toda redistribución debe mantener la misma licencia y espíritu comunitario.
+## 🔧 Ejemplo Incluido
+El archivo `sample_tool.py` contiene una herramienta mínima que muestra la estructura de un script cooperativo.
 
-© 2025 SIAG COOP – Cooperativa Informática de Software Libre.
+```python
+def greet_coop(name="Cooperativa"):
+    print(f"🤝 ¡Hola, {name}! Esta herramienta está lista para colaborar.")
+📚 Documentación
+Ver:
+📄 docs/overview.md
+
+🤝 Contribuciones
+SIAG COOP está abierto a colaboraciones comunitarias.
+
+Puedes:
+
+proponer nuevas herramientas
+
+reportar necesidades comunes
+
+desarrollar soluciones abiertas
+
+sugerir mejoras o documentación
+
+🔗 Contacto
+Email: siag.software@protonmail.com
+Telegram: https://t.me/SIAG_SOFTWARE
+Canal SIAG COOP: https://t.me/SIAGCOOP
+
